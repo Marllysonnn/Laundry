@@ -55,7 +55,7 @@
             />
           </div>
           <div class="contentInput">
-            <img src="/icon/Useric_user.png" alt="Name Icon" />
+            <img src="/icon/Name Tag Woman Horizontalic_name.png" alt="Name Icon" />
             <InputBox
               label="Name"
               inputType="text"
@@ -64,7 +64,7 @@
             />
           </div>
           <div class="contentInput">
-            <img src="/icon/Useric_user.png" alt="Address Icon" />
+            <img src="/icon/Addressic_address.png" alt="Address Icon" />
             <InputBox
               label="Address"
               inputType="text"
@@ -74,7 +74,7 @@
           </div>
           <div id="DatePhone" style="display: flex; gap: 2em">
             <div class="contentInput">
-              <img src="/icon/Useric_user.png" alt="Date of Birth Icon" />
+              <img src="/icon/Calendaric_date.png" alt="Date of Birth Icon" />
               <InputBox
                 label="Date of Birth"
                 inputType="text"
@@ -83,7 +83,7 @@
               />
             </div>
             <div class="contentInput">
-              <img src="/icon/Useric_user.png" alt="Phone Number Icon" />
+              <img src="/icon/Shake Phoneic_phone.png" alt="Phone Number Icon" />
               <InputBox
                 label="Phone Number"
                 inputType="text"
@@ -105,6 +105,7 @@
             </a>
           </div>
           <ButtonSubmit 
+           @click.prevent="toggleForm"
             nameButton="Register"
             style="margin-top: 1.5em"
           />

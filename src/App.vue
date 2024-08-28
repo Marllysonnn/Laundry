@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-      <router-view /> <!-- Renderiza o conteúdo das rotas -->
+      <router-view />
     </div>
   </template>
   
@@ -11,6 +11,11 @@
   </script>
   
   <style>
-  /* Estilos globais */
+    #app{
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
   </style>
   
