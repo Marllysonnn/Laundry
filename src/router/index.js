@@ -6,7 +6,7 @@ import DashboardAdm from '../pages/DashboardAdm.vue';
 const routes = [
   { path: '/', component: Login_Register },
   { path: '/homepage', component: HomePage },
-  { path: '/dashboard_adm', component: DashboardAdm}
+  { path: '/dashboard_adm', component: DashboardAdm},
 ];
 
 const router = createRouter({
