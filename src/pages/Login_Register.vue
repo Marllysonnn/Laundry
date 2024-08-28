@@ -77,16 +77,16 @@
               <img src="/icon/Calendaric_date.png" alt="Date of Birth Icon" />
               <InputBox
                 label="Date of Birth"
-                inputType="text"
+                inputType="date"
                 v-model="dateOfBirth"
-                placeholder="xx-xx-xxxx"
+                placeholder=""
               />
             </div>
             <div class="contentInput">
               <img src="/icon/Shake Phoneic_phone.png" alt="Phone Number Icon" />
               <InputBox
                 label="Phone Number"
-                inputType="text"
+                inputType="tel"
                 v-model="phoneNumber"
                 placeholder="Phone Number"
               />

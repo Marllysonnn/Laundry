@@ -1,26 +1,52 @@
 <template>
     <div id="app">
         <SideBar />
-    </div>
+        <NavUp
+            nameNav="Dashboard"
+        />
+        <div id="section">
+            <div id="clothes">
+                <CardClothes />
+                <CardClothes />
+                <CardClothes 
+                    src="/icon/Womens Hoodie.png"
+                    nameClothe="Clothes"
+                />
+                <CardClothes />
+            </div>
+        </div>
+    </div>    
 </template>
 
 <script>
 import SideBar from '../components/SideBar.vue'
+import NavUp from '../components/Nav.vue'
+import CardClothes from '../components/CardClothes.vue'
 
 export default {
     name: 'DashboardAdm',
     components: {
-        SideBar,
-    }
+    SideBar,
+    NavUp,
+    CardClothes
+}
 }
 </script>
 
 <style scoped>
 #app{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+#section{
+    width: 60%;
+    height: 100%;
+}
+#clothes{
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+    gap: 1em;
+    height: 30em;
 }
 </style>
