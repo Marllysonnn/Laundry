@@ -167,6 +167,8 @@ export default {
   flex-direction: column;
   gap: 1em;
   width: 65vw;
+  animation: ease 0.5s;
+  transition: linear 0.5s;
 }
 
 #content {
