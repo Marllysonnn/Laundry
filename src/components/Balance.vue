@@ -34,11 +34,12 @@ export default {
 
 <style scoped>
     #content{
-        padding: 0.5em;
         border-radius: 2em;
+        box-shadow: 0.3em 0.5em 2em #00000020;
+        background-color: #fff;
     }
     #desc, #valor{
-        padding: 0.5em 1em;
+        padding: 1em 2em;
     }
     #desc{
         display: flex;
@@ -46,18 +47,20 @@ export default {
         justify-content: space-between;
         border-radius: 1em 1em 0 0;
         color: #fff;
-        background-color: #1678F3;
+        background-color: #4DBAE9;
     }
     #valor{
         display: flex;
         flex-direction: column;
-        margin-top: 3em;
         border-radius: 0 0 1em 1em;
-        color: #1678F3;
-        background-color: #fff;
+        color: #4DBAE9;
     }
     img{
         width: 2.5em;
+    }
+    h2{
+        font-size: 1.8em;
+        font-weight: 300;
     }
     h3{
         font-size: 1.2em;

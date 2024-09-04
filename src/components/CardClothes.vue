@@ -28,15 +28,18 @@ export default {
 
 <style scoped>
 #card {
-    width: 50%;
-    height: 50%;
+    width: 10vw;
+    height: 14vh;
+    flex-wrap: nowrap;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+    padding: 1em;
     border-radius: 1.8em;
     align-items: center;
     justify-content: center;
-    background-color: #1678F3;
+    box-shadow: 0.3em 0.5em 2em #00000020;
+    background-color: #64A6F9;
 }
 h2{
     font-weight: 600;
