@@ -43,6 +43,7 @@
                 "
                 />
             </div>
+            <ReportBox />
         </section>
         </div>
     </div>   
@@ -55,6 +56,7 @@ import CardClothes from '../components/CardClothes.vue'
 import Balance from '../components/Balance.vue'
 import listOrder from '../components/listOrder.vue'
 import ButtonList from '../components/Button.vue'
+import ReportBox from '../components/Report.vue'
 
 export default {
     name: 'DashboardAdm',
@@ -65,6 +67,7 @@ export default {
     Balance,
     listOrder,
     ButtonList,
+    ReportBox,
 }
 }
 </script>
@@ -78,12 +81,15 @@ export default {
     background-color: #FCFCFC;
 }
 #section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
 }
 section{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 0fr 0fr;
     padding: 2em;
     gap: 2em;
 }

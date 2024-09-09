@@ -52,6 +52,6 @@
         margin-bottom: 2em;
     }
     img{
-        width: 1.5em;
+        width: 2em;
     }
 </style>
