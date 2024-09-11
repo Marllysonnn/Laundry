@@ -37,6 +37,7 @@ export default {
         border-radius: 2em;
         box-shadow: 0.3em 0.5em 2em #00000020;
         background-color: #fff;
+        grid-row: span 2;
     }
     #desc, #valor{
         padding: 1em 2em;
@@ -58,11 +59,17 @@ export default {
     img{
         width: 2.5em;
     }
+    h1, h3{
+        margin: 0.5em 0;
+    }
     h2{
         font-size: 1.8em;
         font-weight: 300;
     }
+    h1{
+        font-size: 2em;
+    }
     h3{
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 </style>

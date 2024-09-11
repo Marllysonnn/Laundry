@@ -89,15 +89,17 @@ export default {
 }
 section{
     display: grid;
-    grid-template-columns: 0fr 0fr;
-    padding: 2em;
-    gap: 2em;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0fr 1fr 1fr 1fr;
+    gap: 1em;
+    padding: 1em;
 }
 #clothes{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 1em;
+    grid-row: span 1;
 }
 #clothes, #lists{
     height: fit-content;
@@ -108,6 +110,9 @@ section{
 #lists{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    grid-row: span 3;
+    height: auto;
 }
 h2{
     text-align: start;
