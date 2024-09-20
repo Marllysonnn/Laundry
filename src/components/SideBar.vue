@@ -3,7 +3,7 @@
         <div id="cube"></div>
         <nav>
             <a href=""><router-link to="/dashboard_adm"><img src="/icon/Dashboard Layout.png" alt="Public Icon"></router-link></a>
-            <a href=""><img src="/icon/Customer.png" alt="Public Icon"></a>
+            <a href=""><router-link to="/Customer_adm"><img src="/icon/Customer.png" alt="Public Icon"></router-link></a>
             <a href=""><img src="/icon/Shopping Trolley.png" alt="Public Icon"></a>
             <a href=""><img src="/icon/Settings.png" alt="Public Icon"></a>
         </nav>
