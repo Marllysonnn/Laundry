@@ -61,6 +61,7 @@ export default {
         border-radius: 2em;
         box-shadow: 0.3em 0.5em 2em #00000020;
         background-color: #fff;
+        grid-row: span 2;
     }
     #desc, #valor{
         padding: 1em 2em;
